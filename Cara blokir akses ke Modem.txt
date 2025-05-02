@@ -1,4 +1,5 @@
-# cara blokir akses ke modem
+# Cara blokir akses ke modem
+# Sesuaikan ip modem dengan ip modem isp yang digunakan 
 
 /ip firewall address-list
 add address=192.168.1.1 list=IP-MODEM
